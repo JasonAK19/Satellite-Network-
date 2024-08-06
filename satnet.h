@@ -2,13 +2,13 @@
 // Created by Jason on 10/9/2023.
 //
 
-// UMBC - CMSC 341 - Fall 2023 - Proj2
+
 #ifndef SATNET_H
 #define SATNET_H
 #include <iostream>
 using namespace std;
-class Grader;//this class is for grading purposes, no need to do anything
-class Tester;//this is your tester class, you add your test functions in this class
+class Grader;
+class Tester;
 class SatNet;
 const int MINID = 10000;
 const int MAXID = 99999;
